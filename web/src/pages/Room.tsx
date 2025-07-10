@@ -1,5 +1,13 @@
+import { useParams } from 'react-router-dom';
+
+type Roomparams = {
+  roomId: string;
+};
+
 const Room = () => {
-  return <div>Room Details</div>;
+  const params = useParams<Roomparams>();
+
+  return <div>Room Details {JSON.stringify(params)}</div>;
 };
 
 export default Room;
