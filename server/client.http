@@ -29,3 +29,14 @@ Content-Type: application/json
 # Get room questions
 # @name getRoomQuestions
 GET {{baseurl}}/rooms/{{roomId}}/questions
+
+### 
+
+# Create question
+# @name createQuestion
+POST {{baseurl}}/rooms/{{roomId}}/questions
+Content-Type: application/json
+
+{
+    "question": "Esta é uma question teste"
+}
