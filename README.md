@@ -2,8 +2,6 @@
 
 **Let Me Ask** é uma plataforma de perguntas e respostas em tempo real, desenvolvida com foco em aprendizado prático durante a NLW Agents da [Rocketseat](https://rocketseat.com.br). O projeto é dividido em duas aplicações: **front-end (React)** e **back-end (Node.js + Fastify)**.
 
----
-
 ## 🧰 Tecnologias Utilizadas
 
 ### Front-end
@@ -21,8 +19,6 @@
 - **PostgreSQL** + **pgvector**
 - **@fastify/cors**
 
----
-
 ## 🏗️ Arquitetura e Padrões
 
 ### Front-end
@@ -35,8 +31,6 @@
 - **Barrel file** para reexportação de schemas
 - Validação de ambiente com **Zod**
 
----
-
 ## ⚙️ Setup do Projeto
 
 ### 1. Clone o repositório
@@ -44,8 +38,6 @@
 git clone <url-do-repositorio>
 cd letmeask
 ```
-
----
 
 ### 2. Configuração do Back-end
 
@@ -61,8 +53,6 @@ npm install
 docker compose up -d          # Sobe o PostgreSQL
 npm run dev                   # Inicia o servidor (porta padrão: http://localhost:3333)
 ```
-
----
 
 ### 3. Configuração do Front-end
 
